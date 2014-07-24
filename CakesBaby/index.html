@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="js/jquery.js"></script>
+    <script src="js/cake.js"></script>
+</head>
+<body>
+    <div class="cake-wrapper">
+        <div class="cake-image">
+            <img src="" />
+        </div>
+        <div class="cake-info">
+            <div class="cake-title">
+                <h2></h2>
+            </div>
+            <div class="cake-description short">
+                <p>
+
+                </p>
+            </div>
+            <div class="cake-notes">
+                <p>
+
+                </p>
+            </div>
+        </div>
+        <div class="cake-navigation clearfix">
+            <div class="show-hide">
+                <a href="#">show details</a>
+            </div>
+            <div class="left">
+                <div class="btn prev">
+                    <span>Prev</span>
+                </div>
+                <div class="btn next">
+                    <span>Next</span>
+                </div>
+            </div>
+            <div class="right">
+                <a class="cta" href="#" target="_blank">
+                    <div class="btn">
+                        <span>Find a Store</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/template" id="cake_wrapper_template">
+        <div class="cake-wrapper">
+            <div class="cake-image">
+                <img src="imgs/{img}" />
+            </div>
+            <div class="cake-info">
+                <div class="cake-title">
+                    <h2>{title}</h2>
+                </div>
+                <div class="cake-description short">
+                    <p>
+                        {description}
+                    </p>
+                </div>
+                <div class="cake-notes">
+                    <p>
+                        {note}
+                    </p>
+                </div>
+            </div>
+            <div class="cake-navigation clearfix">
+                <div class="show-hide">
+                    <a href="#">show details</a>
+                </div>
+                <div class="left">
+                    <div class="btn prev">
+                        <span>Prev</span>
+                    </div>
+                    <div class="btn next">
+                        <span>Next</span>
+                    </div>
+                </div>
+                <div class="right">
+                    <a class="cta" href="{productUrl}" target="_blank">
+                        <div class="btn">
+                            <span>Find a Store</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </script>
+
+
+</body>
+</html>

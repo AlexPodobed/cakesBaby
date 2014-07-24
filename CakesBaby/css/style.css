@@ -1,0 +1,176 @@
+@import url('reset.css');
+@import url('clearfix.css');
+
+.cake-wrapper,
+.cake-navigation .left .btn,
+.cake-navigation .left .btn:after,
+.cake-navigation .cta .btn{
+    background-image: url('../imgs/sprite.png');
+}
+
+.cake-wrapper{
+    position: relative;
+    margin: 20px;
+    background-position: 0 -426px;
+    border-radius: 6px;
+    width: 323px;
+    height: 337px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.cake-image{
+    width: 318px;
+    height: 200px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 7px;
+    margin-left: 1px;
+}
+.cake-image img{
+    width: 100%;
+}
+.cake-info{
+    padding: 13px 14px 7px 14px;
+}
+.cake-title h2{
+    color: #ff6922;
+    font-weight: bold;
+    font-size: 19px;
+}
+.cake-info p{
+    font-size: 11px;
+    margin: 5px 0;
+}
+.cake-description.short{
+    line-height: 11px;
+    height: 27px;
+    overflow: hidden;
+}
+
+.cake-notes{
+    display: none;
+}
+
+
+/* ----------------Navigation--------------------*/
+.cake-navigation{
+    position: absolute;
+    bottom: 4px;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 10px 10px 10px;
+    overflow: hidden;
+}
+.cake-navigation .btn{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 7px 9px;
+    font-size: 12px;
+}
+
+.cake-navigation .left{
+    float: left;
+}
+.cake-navigation .right{
+    float: right;
+}
+
+.cake-navigation .show-hide{
+    padding: 0px 4px 18px 4px;
+    font-size: 11px;
+    font-weight: bold;
+}
+.cake-navigation .show-hide a{
+    color: #ff6922;
+}
+
+.cake-navigation .left .btn{
+    width: 68px;
+    height: 26px;
+    cursor: pointer;
+    position: relative;
+    color: #A5A3A3;
+}
+.cake-navigation .left .btn:after{
+    content: "";
+    width: 12px;
+    height: 10px;
+    position: absolute;
+    top: 9px;
+
+}
+.cake-navigation .btn:hover{
+    color: #fff;
+    text-shadow: 1px 1px 0 rgba(181,86,13,.9);
+}
+
+/*---------Prev Button----------*/
+.cake-navigation .prev{
+    background-position: 0 -288px;
+    text-align: right;
+}
+
+.cake-navigation .prev:after{
+    background-position: 0 -90px;
+    left: 5px;
+}
+
+.cake-navigation .prev:hover{
+    background-position: 0 -196px;
+
+}
+.cake-navigation .prev:hover:after{
+    background-position: 0 -30px;
+}
+
+/*---------Next Button----------*/
+.cake-navigation .next{
+    background-position: 0 -334px;
+
+}
+
+.cake-navigation .next:after{
+    background-position: 0 -120px;
+    right: 5px;
+}
+
+.cake-navigation .next:hover{
+    background-position: 0 -242px;
+}
+.cake-navigation .next:hover:after{
+    background-position: 0 -60px;
+}
+
+/* CTA Button*/
+.cake-navigation .cta{
+    color: #ff6922;
+    margin-right: 2px;
+}
+.cake-navigation .cta .btn{
+    background-position: 0 -380px;
+    width: 117px;
+    height: 26px;
+    font-weight: bold;
+    position: relative;
+}
+
+.cake-navigation .cta .btn:after{
+    content: " ";
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-left: 10px solid #ff6922;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    top: 8px;
+    right: 5px;
+}
+.cake-navigation .cta .btn:hover{
+    background-position: 0 -150px;
+    color: #fff;
+}
+
+

@@ -1,0 +1,79 @@
+.sprite-arrowSide {
+    background-position: 0 0;
+    width: 10px;
+    height: 10px;
+}
+
+.sprite-btn_ic_brn_left {
+    background-position: 0 -30px;
+    width: 12px;
+    height: 10px;
+}
+
+.sprite-btn_ic_brn_right {
+    background-position: 0 -60px;
+    width: 12px;
+    height: 10px;
+}
+
+.sprite-btn_ic_gray_left {
+    background-position: 0 -90px;
+    width: 12px;
+    height: 10px;
+}
+
+.sprite-btn_ic_gray_right {
+    background-position: 0 -120px;
+    width: 12px;
+    height: 10px;
+}
+
+.sprite-button_bg_orange_cta {
+    background-position: 0 -150px;
+    width: 117px;
+    height: 26px;
+}
+
+.sprite-button_bg_orange_left {
+    background-position: 0 -196px;
+    width: 68px;
+    height: 26px;
+}
+
+.sprite-button_bg_orange_right {
+    background-position: 0 -242px;
+    width: 68px;
+    height: 26px;
+}
+
+.sprite-button_bg_white_left {
+    background-position: 0 -288px;
+    width: 68px;
+    height: 26px;
+}
+
+.sprite-button_bg_white_right {
+    background-position: 0 -334px;
+    width: 68px;
+    height: 26px;
+}
+
+.sprite-button_bg_white_right_cta {
+    background-position: 0 -380px;
+    width: 117px;
+    height: 26px;
+}
+
+.sprite-comp_plate_graybasic {
+    background-position: 0 -426px;
+    width: 323px;
+    height: 337px;
+}
+
+.sprite-dottedHozLine {
+    background-position: 0 -783px;
+    width: 274px;
+    height: 1px;
+}
+
+
